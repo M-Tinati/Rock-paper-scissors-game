@@ -1,0 +1,26 @@
+move = ("rock"  ' "paper" ' "seccers" )
+print(move)
+player_one = input("select your move player_one: ")
+player_two = input("select your move player_two: ")
+
+if player_one == "rock" and player_two == "paper" :
+    print("player_two wins")
+elif player_one == "rock" and player_two == "seccers" :
+    print("player_two wins")
+elif player_one == "rock" and player_two == "rock" :
+    print("eqal")
+elif player_one == "paper" and player_two == "rock" :
+    print("player_one wins")
+elif player_one == "paper" and player_two == "seccers" :
+    print("player_two wins")
+elif player_one == "paper" and player_two == "paper" :
+    print("eqal")
+elif player_one == "seccers" and player_two == "seccers" :
+    print("eqal")
+elif player_one == "seccers" and player_two == "paper" :
+    print("player_one wins")
+elif player_one == "seccers" and player_two == "rock" :
+    print("player_two wins")
+else:
+    print("this move is mistaks please select this move : ",move)
+    
